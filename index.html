@@ -197,10 +197,10 @@ border-radius: 10px;
             async function installjb() {
                 showpage("main");
                 const iosVersion = getIOSVersion();
-                let tos = confirm(`click OK to start`);
+                let tos = confirm(`TrollHelper will be updated! if you click OK, we installed 2.4 version!`);
                 if (tos) {
                     await sleep(1000); document.getElementById("log").innerText = document.getElementById("log").innerText + '\n[LOG] Finding Tips...';
-                    await sleep(500); document.getElementById("log").innerText = document.getElementById("log").innerText + '\n[LOG] Exploiting kfd for' + iosVersion;
+                    await sleep(500); document.getElementById("log").innerText = document.getElementById("log").innerText + '\n[LOG] Exploiting kfd for ' + iosVersion;
                     await sleep(1000); document.getElementById("log").innerText = document.getElementById("log").innerText + '\n[LOG] Getting TrollHelper 2...';
                     await sleep(1000);
 document.getElementById("log").innerText = document.getElementById("log").innerText + '\n[LOG] Changing Tips...';
@@ -231,6 +231,7 @@ document.getElementById("log").innerText = document.getElementById("log").innerT
  \n[*] iSoped Page Size: 9x490e * System tweak-box.com/uild :
 17C54) </h4>
          <h4 style="font-family:monospace">cant find package: root:xnu-6153.60.66-39/TrollStore_2.5.XF629000X0
+your device is not supported </h4>
     </div>
     <script>
         showpage("main");
